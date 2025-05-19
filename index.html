@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="splash" class="splash">
+      <img src="/Logo.png" alt="logo" class="logo" />
+    </div>
+    <div id="loader" class="loader hidden">
+      <img
+        src="/Ellipse 1005.png"
+        alt="top-left margin photo"
+        class="top-left-photo"
+      />
+      <img src="/Logo.png" alt="logo" class="loader-logo" />
+      <img
+        src="/Ellipse 1006.png"
+        alt="down-right margin photo"
+        class="down-right-photo"
+      />
+    </div>
+
+    <div id="onboarding" class="onboarding hidden">
+      <div class="content">
+        <div class="slides">
+          <div class="slide">
+            <img
+              src="Rectangle 4177.png"
+              alt="onbording first page photo"
+              class="onboarding-img"
+            />
+            <h2>All your favorites</h2>
+            <p>
+              Get all your loved food in once place,<br />
+              you just place the orer we do the rest
+            </p>
+          </div>
+          <div class="slide">
+            <img
+              src="Rectangle 4177.png"
+              alt="onbording first page photo"
+              class="onboarding-img"
+            />
+            <h2>All your favorites</h2>
+            <p>
+              Get all your loved food in once place,<br />
+              you just place the orer we do the rest
+            </p>
+          </div>
+          <div class="slide">
+            <img
+              src="Rectangle 4177.png"
+              alt="onbording first page photo"
+              class="onboarding-img"
+            />
+            <h2>Order from choosen chef</h2>
+            <p>
+              Get all your loved food in once place,<br />
+              you just place the orer we do the rest
+            </p>
+          </div>
+          <div class="slide">
+            <img
+              src="Rectangle 4177.png"
+              alt="onbording first page photo"
+              class="onboarding-img"
+            />
+            <h2>Free delivery offers</h2>
+            <p>
+              Get all your loved foods in one once place,<br />
+              you just place the orer we do the rest
+            </p>
+          </div>
+        </div>
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <button id="next" class="next">NEXT</button>
+        <button id="skip" class="skip">Skip</button>
+      </div>
+    </div>
+    <div id="location" class="location hidden">
+      <img
+        src="/Rectangle 4177 (1).png"
+        alt=" access location photo"
+        class="map-img"
+      />
+      <button id="accessBtn" class="accessBtn">
+        <span class="accessBtnText">ACCESS LOCATION</span>
+        <img src="/Map Pin.png" alt="map pin photo" class="map-pin" />
+      </button>
+      <p>DFOOD WILL ACCESS YOUR LOCATION ONLY WHILE USING THE APP</p>
+    </div>
+    <div id="registration" class="registration hidden"></div>
+    <script type="module" src="/src/scripts/main.ts"></script>
+  </body>
+</html>
